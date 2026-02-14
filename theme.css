@@ -135,6 +135,7 @@
 
   /* Mikko: wider content area (default is 700px) */
   --file-line-width: 1100px;
+
 }
 
 /* Search */
@@ -255,6 +256,15 @@ body:not(.is-grabbing) .nav-folder-title.is-being-dragged,
 .theme-light button.mod-warning {
   --background-modifier-error: #f23f3f;
   --background-modifier-error-hover: #d72020;
+}
+
+/* Mikko: code block text color to match normal text */
+.theme-dark .markdown-preview-view pre {
+  color: var(--text-normal);
+}
+
+.theme-dark .cm-s-obsidian .HyperMD-codeblock {
+  color: var(--text-normal);
 }
 
 /* Code syntax highlighting */
