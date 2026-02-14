@@ -258,6 +258,11 @@ body:not(.is-grabbing) .nav-folder-title.is-being-dragged,
   --background-modifier-error-hover: #d72020;
 }
 
+/* Mikko: accent-colored list markers (Bear-style) */
+.theme-dark, .theme-light {
+  --list-marker-color: var(--text-accent);
+}
+
 /* Mikko: code block text color to match normal text */
 .theme-dark .markdown-preview-view pre {
   color: var(--text-normal);
